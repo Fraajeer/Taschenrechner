@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Faschenrechner</title>
+    </head>
+<body>
+Gib mal Werte ein <br>
+<br>
+<form action="rechnen.php" method="post">
+    
+    <label for="zahl1">
+        <input type="number" id="zahl1" name="zahl1">
+    </label><br>
+
+    <input type="radio" id="plus" name="operator" value="plus">
+    <label for="plus">+</label><br>
+
+    <input type="radio" id="minus" name="operator" value="minus">
+    <label for="minus">-</label><br>
+
+    <input type="radio" id="mal" name="operator" value="mal">
+    <label for="mal">*</label><br>
+
+    <input type="radio" id="durch" name="operator" value="durch">
+    <label for="durch">/</label><br>
+
+    <label for="zahl2">
+        <input type="number" id="zahl2" name="zahl2">
+    </label><br><br>
+
+    <button type="submit">Berechnen</button>
+    <button type="reset">Zur&uuml;cksetzen</button>
+
+</form>
+</body>
+</html>
