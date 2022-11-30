@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Ergebnis sind toll </title>
+        <title>Ergebnis</title>
     </head>
 <body>
     <?php
